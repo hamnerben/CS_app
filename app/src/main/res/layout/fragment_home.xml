@@ -114,23 +114,26 @@
         app:layout_constraintTop_toBottomOf="@+id/DrXiojun" />
 
     <TextView
-        android:id="@+id/contact"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="38dp"
-        android:text="Contact"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/departmenthead" />
-
-    <TextView
         android:id="@+id/contactInfo"
         android:layout_width="352dp"
         android:layout_height="63dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="16dp"
         android:text="4205 Old Main Hill Office 414 Old Main Bldg Logan, UT 84322 (435) 797-2451  Email: usucs@aggies.usu.edu"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/contact" />
+        app:layout_constraintTop_toBottomOf="@+id/titleContact" />
+
+    <TextView
+        android:id="@+id/titleContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Contact"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/departmenthead" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
